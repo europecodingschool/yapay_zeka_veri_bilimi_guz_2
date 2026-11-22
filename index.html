@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hüseyin Gürhan Temiz | Portfolyo & CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white !important; color: black !important; }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- Üst Menü -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 no-print">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="font-bold text-lg tracking-tight text-slate-900">HGT.</a>
+            <div class="hidden sm:flex space-x-6 text-sm font-medium text-slate-600">
+                <a href="#hakkimda" class="hover:text-blue-600 transition">Hakkımda</a>
+                <a href="#deneyim" class="hover:text-blue-600 transition">Deneyim</a>
+                <a href="#projeler" class="hover:text-blue-600 transition">Projeler</a>
+                <a href="#yetenekler" class="hover:text-blue-600 transition">Yetenekler</a>
+                <a href="#egitim" class="hover:text-blue-600 transition">Eğitim</a>
+            </div>
+            <button onclick="window.print()" class="text-xs font-semibold bg-slate-900 text-white px-3.5 py-2 rounded-lg hover:bg-slate-700 transition flex items-center gap-2">
+                <i class="fa-solid fa-file-pdf"></i> PDF / Yazdır
+            </button>
+        </div>
+    </nav>
+
+    <!-- Ana İçerik -->
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+
+        <!-- Hero / Özet Alanı -->
+        <header id="hakkimda" class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+            <div class="space-y-4 max-w-2xl">
+                <div class="inline-block px-3 py-1 text-xs font-semibold text-blue-700 bg-blue-100 rounded-full">
+                    İş Birliği & Yeni Projelere Açık
+                </div>
+                <h1 class="text-4xl sm:text-5xl font-bold tracking-tight text-slate-900">
+                    Hüseyin Gürhan Temiz
+                </h1>
+                <p class="text-xl text-slate-600 font-medium">
+                    <!-- Unvanını buraya yaz -->
+                    Teknoloji Girişimcisi • Eğitmen • Yazılım & Veri Bilimi Uzmanı
+                </p>
+                <p class="text-slate-600 leading-relaxed">
+                    <!-- Kısa özet biyografini buraya yaz -->
+                    Karmaşık problemleri ölçeklenebilir dijital ürünlere dönüştüren, veri odaklı stratejiler geliştiren ve teknoloji alanında yeni nesil profesyoneller yetiştiren mühendis ve girişimci.
+                </p>
+                <div class="flex flex-wrap items-center gap-4 pt-2 no-print">
+                    <a href="https://www.linkedin.com/in/h%C3%BCseyin-g%C3%BCrhan-temiz-932551a8/" target="_blank" class="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-blue-700 transition">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="inline-flex items-center gap-2 bg-slate-200 text-slate-800 px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-slate-300 transition">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:ornek@email.com" class="inline-flex items-center gap-2 border border-slate-300 text-slate-700 px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-slate-100 transition">
+                        <i class="fa-solid fa-envelope"></i> İletişime Geç
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Profil Fotoğrafı Alanı (İstersen fotoğraf linki ekleyebilirsin) -->
+            <div class="w-32 h-32 sm:w-40 sm:h-40 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white text-4xl font-bold shadow-lg shrink-0">
+                HGT
+            </div>
+        </header>
+
+        <hr class="border-slate-200">
+
+        <!-- İş Deneyimi -->
+        <section id="deneyim" class="space-y-8">
+            <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                <i class="fa-solid fa-briefcase text-blue-600 text-lg"></i> İş Deneyimi
+            </h2>
+
+            <div class="space-y-8 border-l-2 border-slate-200 ml-3 pl-6">
+                <!-- Deneyim 1 -->
+                <div class="relative">
+                    <span class="absolute -left-[31px] top-1.5 w-3.5 h-3.5 rounded-full bg-blue-600 ring-4 ring-slate-50"></span>
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline">
+                        <h3 class="text-lg font-bold text-slate-900">Kurucu & Eğitmen</h3>
+                        <span class="text-sm font-medium text-slate-500">2023 – Günümüz</span>
+                    </div>
+                    <p class="text-sm font-semibold text-blue-600 mb-2">Şirket / Kurum Adı • Konum</p>
+                    <ul class="list-disc list-inside text-slate-600 text-sm space-y-1.5 leading-relaxed">
+                        <li>Yapay zeka, veri bilimi ve yazılım geliştirme alanlarında uygulamalı eğitim müfredatları oluşturuldu ve yönetildi.</li>
+                        <li>Büyüme pazarlaması (SEO, dijital reklamlar, dönüşüm optimizasyonu) ve operasyon süreçlerine liderlik edildi.</li>
+                        <li>Uluslararası staj ve kariyer yerleştirme süreçleri koordine edildi.</li>
+                    </ul>
+                </div>
+
+                <!-- Deneyim 2 -->
+                <div class="relative">
+                    <span class="absolute -left-[31px] top-1.5 w-3.5 h-3.5 rounded-full bg-slate-400 ring-4 ring-slate-50"></span>
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline">
+                        <h3 class="text-lg font-bold text-slate-900">Önceki Pozisyon Unvanı</h3>
+                        <span class="text-sm font-medium text-slate-500">2019 – 2023</span>
+                    </div>
+                    <p class="text-sm font-semibold text-slate-600 mb-2">Şirket Adı • Konum</p>
+                    <ul class="list-disc list-inside text-slate-600 text-sm space-y-1.5 leading-relaxed">
+                        <li>Sorumluluk ve başarı maddesi 1 (Örn: Süreç verimliliğini %35 artıran otomasyon sistemi geliştirildi).</li>
+                        <li>Sorumluluk ve başarı maddesi 2.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Öne Çıkan Projeler -->
+        <section id="projeler" class="space-y-6">
+            <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                <i class="fa-solid fa-code-branch text-blue-600 text-lg"></i> Öne Çıkan Projeler
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Proje Kartı 1 -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-bold text-slate-900 text-lg">Proje Adı 1</h3>
+                            <a href="#" target="_blank" class="text-slate-400 hover:text-blue-600"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            Projenin ne işe yaradığını, çözdüğü problemi ve kullanılan mimariyi özetleyen 2-3 cümlelik açıklama.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs font-medium bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Python</span>
+                        <span class="text-xs font-medium bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Machine Learning</span>
+                        <span class="text-xs font-medium bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Firebase</span>
+                    </div>
+                </div>
+
+                <!-- Proje Kartı 2 -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-bold text-slate-900 text-lg">Proje Adı 2</h3>
+                            <a href="#" target="_blank" class="text-slate-400 hover:text-blue-600"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            Geliştirilen web/mobil uygulamanın veya analiz çalışmasının somut çıktıları ve kullanıcı faydası.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs font-medium bg-slate-100 text-slate-700 px-2.5 py-1 rounded">HTML/JS</span>
+                        <span class="text-xs font-medium bg-slate-100 text-slate-700 px-2.5 py-1 rounded">AI Integration</span>
+                        <span class="text-xs font-medium bg-slate-100 text-slate-700 px-2.5 py-1 rounded">Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Yetenekler -->
+        <section id="yetenekler" class="space-y-6">
+            <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                <i class="fa-solid fa-layer-group text-blue-600 text-lg"></i> Yetkinlikler & Araçlar
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <div class="bg-white p-5 rounded-xl border border-slate-200">
+                    <h3 class="font-semibold text-slate-900 mb-3 text-sm uppercase tracking-wider">Veri & Yapay Zeka</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-blue-50 text-blue-700 font-medium px-2.5 py-1 rounded-md">Python</span>
+                        <span class="text-xs bg-blue-50 text-blue-700 font-medium px-2.5 py-1 rounded-md">Scikit-Learn</span>
+                        <span class="text-xs bg-blue-50 text-blue-700 font-medium px-2.5 py-1 rounded-md">TensorFlow</span>
+                        <span class="text-xs bg-blue-50 text-blue-700 font-medium px-2.5 py-1 rounded-md">Computer Vision</span>
+                        <span class="text-xs bg-blue-50 text-blue-700 font-medium px-2.5 py-1 rounded-md">Pandas & NumPy</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200">
+                    <h3 class="font-semibold text-slate-900 mb-3 text-sm uppercase tracking-wider">Yazılım & Ürün</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-emerald-50 text-emerald-700 font-medium px-2.5 py-1 rounded-md">HTML / CSS / JS</span>
+                        <span class="text-xs bg-emerald-50 text-emerald-700 font-medium px-2.5 py-1 rounded-md">Firebase</span>
+                        <span class="text-xs bg-emerald-50 text-emerald-700 font-medium px-2.5 py-1 rounded-md">Git & GitHub</span>
+                        <span class="text-xs bg-emerald-50 text-emerald-700 font-medium px-2.5 py-1 rounded-md">Gradio</span>
+                        <span class="text-xs bg-emerald-50 text-emerald-700 font-medium px-2.5 py-1 rounded-md">WordPress</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200">
+                    <h3 class="font-semibold text-slate-900 mb-3 text-sm uppercase tracking-wider">Strateji & Büyüme</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-purple-50 text-purple-700 font-medium px-2.5 py-1 rounded-md">SEO & GEO</span>
+                        <span class="text-xs bg-purple-50 text-purple-700 font-medium px-2.5 py-1 rounded-md">GA4 & GTM</span>
+                        <span class="text-xs bg-purple-50 text-purple-700 font-medium px-2.5 py-1 rounded-md">Google & Meta Ads</span>
+                        <span class="text-xs bg-purple-50 text-purple-700 font-medium px-2.5 py-1 rounded-md">Müfredat Tasarımı</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Eğitim & Sertifikalar -->
+        <section id="egitim" class="space-y-6">
+            <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap text-blue-600 text-lg"></i> Eğitim & Sertifikalar
+            </h2>
+
+            <div class="bg-white p-6 rounded-xl border border-slate-200 flex flex-col sm:flex-row justify-between sm:items-center gap-2">
+                <div>
+                    <h3 class="font-bold text-slate-900">Üniversite Adı</h3>
+                    <p class="text-sm text-slate-600">Mühendislik Fakültesi • Bölüm Adı</p>
+                </div>
+                <span class="text-sm font-medium text-slate-500">Mezuniyet Yılı</span>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Alt Bilgi -->
+    <footer class="border-t border-slate-200 py-8 text-center text-sm text-slate-500 no-print">
+        <p>© 2026 Hüseyin Gürhan Temiz. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+</html>
