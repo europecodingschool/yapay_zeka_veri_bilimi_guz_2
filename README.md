@@ -1,0 +1,1 @@
+# yapay_zeka_veri_bilimi_guz_2
